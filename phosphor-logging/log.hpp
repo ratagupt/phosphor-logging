@@ -18,8 +18,8 @@
 
 #include <systemd/sd-journal.h>
 
-#include <phosphor-logging/sdjournal.hpp>
-#include <sdbusplus/server/transaction.hpp>
+#include "phosphor-logging/sdjournal.hpp"
+#include "sdbusplus/server/transaction.hpp"
 #include <tuple>
 #include <type_traits>
 
